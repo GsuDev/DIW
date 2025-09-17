@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <section>
+      <h1>
+        Demostración de Elementos HTML
+        Básicos
+      </h1>
+      <p>Ejemplo con cabeceras, enlaces, listas, imágenes, tablas y formularios (select y textarea
+        incluidos).</p>
+      <nav>
+        <h3><a href="">Cabeceras</a></h3>
+        <h3><a href="">Enlaces</a></h3>
+        <h3><a href="">Listas</a></h3>
+        <h3><a href="">Imágenes</a></h3>
+        <h3><a href="">Tablas</a></h3>
+        <h3><a href="">Formularios</a></h3>
+      </nav>
+    </section>
+
+    <section>
+      <h2 class="azul">Cabeceras</h2>
+      <h2>Título principal</h2>
+      <h2 class="azul">Subtítulo</h2>
+      <h3>Sección</h3>
+      <h3>Subsección</h3>
+      <h4>Detalle</h4>
+      <h5>Nota</h5>
+    </section>
+
+    <section>
+      <h2 class="azul"><a href="">Enlaces</a></h2>
+      <p>Enlace externo: <a href="">MDN Web Docs</a></p>
+      <p>Enlace interno: <a href="">Ir al formulario</a></p>
+    </section>
+
+    <section>
+      <h2 class="azul"><a href="">Listas</a></h2>
+      <h3>Lista desordenada</h3>
+      <ul>
+        <li>CPU</li>
+        <li>RAM</li>
+        <li>Placa Base</li>
+      </ul>
+      <h3>Lista ordenada</h3>
+      <ol>
+        <li>CPU</li>
+        <li>RAM</li>
+        <li>Placa Base</li>
+      </ol>
+      <h3>Lista ordenada</h3>
+      <dl>
+        <dt>Hardware</dt>
+        <dd>Componentes físicos del equipo.</dd>
+        <dt>Software</dt>
+        <dd>Programas y aplicaciones.</dd>
+        <dt>Firmware</dt>
+        <dd>Software de bajo nivel embebido en dispositivos.</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2 class="azul"><a href="">Imágenes</a></h2>
+      <img src="https://picsum.photos/600/400" alt="Imagen aleatoria">
+      <p>Es importante incluir el atributo alt para accesibilidad.</p>
+    </section>
+
+    <section>
+      <h2 class="azul"><a href="">Tabla</a></h2>
+      <p>Tabla con especificaciones básicas:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Componente</th>
+            <th>Ejemplo</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CPU</td>
+            <td>4 núcleos</td>
+            <td>Frecuencia variable</td>
+          </tr>
+          <tr>
+            <td>RAM</td>
+            <td>16 GB</td>
+            <td>DDR4 o DDR5</td>
+          </tr>
+          <tr>
+            <td>Almacenamiento</td>
+            <td>512 GB SSD</td>
+            <td>NVMe recomendado</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <section>
+      <form action="">
+        <h2 class="azul"><a href="">Formulario de ejemplo</a></h2>
+        <div>
+          <div class="container">
+            <h3>Nombre</h3>
+            <input type="text">
+          </div>
+          <div>
+            <h3>Correo electrónico</h3>
+            <input type="text">
+          </div>
+
+        </div>
+        <div>
+          <h3>edad</h3>
+          <input type="number">
+        </div>
+        <div>
+          <h3>Caja oppciones</h3>
+          <select name="" id=""></select>
+        </div>
+        <div>
+          <h3>Texto</h3>
+          <textarea name="" id=""></textarea>
+        </div>
+        <div>
+          <h3>Tipo de equipo</h3>
+          <div>
+            <input type="radio">
+            <label for="">Sobremesa</label>
+          </div>
+          <div>
+            <input type="radio">
+            <label for="">Portatil</label>
+          </div>
+        </div>
+        <div>
+          <h3>Accesorios</h3>
+          <div>
+            <input type="radio">
+            <label for="">Raton</label>
+          </div>
+          <div>
+            <input type="radio">
+            <label for="">Teclado</label>
+          </div>
+          <div>
+            <input type="radio">
+            <label for="">Cascos</label>
+          </div>
+        </div>
+        <div class="container">
+          <button>Enviar</button>
+          <button type="reset">Limpiar</button>
+        </div>
+      </form>
+
+
+    </section>
+  </main>
+</body>
+
+</html>
