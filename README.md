@@ -24,8 +24,7 @@ Bienvenido/a mi repositorio para la asignatura **Diseño de Interfaces Web** del
 📦 DIW
 ├── 📁 Practicas
 ├── 📁 Proyectos
-├── 📁 Recuperacion
-└── 📁 Examenes
+└── 📁 Apuntes
 ```
 
 ---
