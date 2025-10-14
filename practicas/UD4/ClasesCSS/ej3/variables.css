@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Condiment';
+  src: url('https: //fonts.googleapis.com/css2?family=Condiment&display=swap');
+}
+
+@font-face {
+  font-family: 'Dyna';
+  src: url('./DynaPuff.ttf');
+}
+
+:root {
+  --color-amarillo: #ffcc00;
+  --font-color: #333333;
+  ;
+}

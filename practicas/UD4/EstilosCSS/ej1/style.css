@@ -1,0 +1,15 @@
+h2 + p::first-line {
+  margin-left: 2em;
+}
+
+h2::first-letter {
+  font-size: 2em;
+}
+
+a::before {
+  content: "-> ";
+}
+
+abbr::after {
+  content: attr(title);
+}

@@ -1,0 +1,75 @@
+@import url('./variables.css');
+
+
+body {
+  background-color: var(--color-amarillo);
+  transition: all 0.5s ease;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1em;
+}
+
+h1 {
+  color: var(--font-color);
+  font-family: 'Condiment', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+.latin {
+  color: var(--font-color);
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0 1em 1em 1em;
+}
+
+.spanish {
+  color: var(--font-color);
+  font-size: 2em;
+  font-style: italic;
+  line-height: 1.5em;
+  margin: 0 2em 1.5em 2em;
+  text-align: right;
+  font-family: 'Dyna';
+}
+
+.creditos {
+  color: var(--font-color);
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.creditos p {
+  max-inline-size: 60%;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    background-color: rgb(203, 110, 34);
+    transition: all 0.5s ease;
+  }
+
+  .latin, .spanish {
+    font-size: 1.5em;
+    margin: 0 0.5em 1em 0.5em;
+    text-align: center;
+  }
+
+  .spanish {
+    margin: 0 0.5em 1.5em 0.5em;
+    text-align: center;
+  }
+
+  .creditos p {
+    max-inline-size: 90%;
+    text-align: center;
+  }
+}

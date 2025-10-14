@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+.data-block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.data-block__label {
+  color: blue;
+}
+
+.data-block__input,
+.data-block__textarea,
+.data-block__email {
+  border: 2px solid green;
+  border-radius: 5px;
+  color: lime;
+}
+
+.button-container__button--enviar {
+  background-color: green;
+}
+.button-container__button--cancelar {
+  background-color: crimson;
+}
